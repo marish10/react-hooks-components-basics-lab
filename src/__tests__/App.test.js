@@ -1,7 +1,8 @@
 import "@testing-library/jest-dom";
-import { render, screen } from "@testing-library/react";
-
-import App from "../components/App";
+import { render, screen } from "@testing-library/react"
+import Navbar from "../components/Navbar";
+import App from "../components/App"
+import React from "react";
 
 test("renders without errors", () => {
   expect(() => render(<App />)).not.toThrow();
